@@ -11,7 +11,8 @@ const Board = () => {
     setisX(!isX);
   };
   return (
-    <main className="Board">
+    <main className="Board">¡
+      <h1>ss</h1>
       {BoxVal.map((obj, i) => (
         <div key={i} onClick={() => handleClick(i)}>
           {obj}
